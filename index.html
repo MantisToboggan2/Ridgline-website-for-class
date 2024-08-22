@@ -15,10 +15,20 @@
         </div>
         <div class="site-name">Ridgeline</div>
         <div class="nav-button">
-            <button onclick="location.href='nav-page.html'">Menu</button>
+            <div class="dropdown">
+                <button class="dropbtn">Menu</button>
+                <div class="dropdown-content">
+                    <a href="#product-info">Product Info</a>
+                    <a href="#product-image">Product Image</a>
+                    <a href="#product-options">Product Options</a>
+                    <a href="#purchase-section">Purchase</a>
+                    <a href="#reviews">Reviews</a>
+                    <a href="#shipping-options">Shipping Options</a>
+                </div>
+            </div>
         </div>
     </header>
-    <section class="product-info">
+    <section id="product-info" class="product-info">
         <div class="product-name">Super Jacket</div>
         <div class="product-description">
             <h2>Unleash the Power of Ultimate Protection and Style</h2>
@@ -29,12 +39,12 @@
             <p>Elevate your wardrobe with the Super Jacket – because when it comes to your outerwear, ordinary just isn’t enough.</p>
         </div>
     </section>
-    <section class="product-image">
+    <section id="product-image" class="product-image">
         <div class="image-container">
             <img src="https://m.media-amazon.com/images/I/71E7c09iTdL._AC_SX679_.jpg" alt="Image of the Super Jacket">
         </div>
     </section>
-    <section class="product-options">
+    <section id="product-options" class="product-options">
         <div class="option">
             <label for="color-options">Color Options:</label>
             <select id="color-options">
@@ -64,12 +74,12 @@
             </select>
         </div>
     </section>
-    <section class="purchase-section">
+    <section id="purchase-section" class="purchase-section">
         <button class="add-to-cart">ADD TO CART</button>
         <div class="price">$99.87</div>
         <button class="wishlist-button">❤️</button>
     </section>
-    <section class="reviews">
+    <section id="reviews" class="reviews">
         <div class="review-box">
             <p>This Product changed my life!</p>
             <p>⭐️⭐️⭐️⭐️⭐️</p>
@@ -87,7 +97,7 @@
             <p>⭐️⭐️⭐️⭐️⭐️</p>
         </div>
     </section>
-    <section id="shipping-options">
+    <section id="shipping-options" class="shipping-options">
         <h2>Shipping Options</h2>
         <div class="shipping-option">
             <h3>Standard Shipping</h3>
